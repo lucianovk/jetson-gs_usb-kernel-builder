@@ -18,14 +18,16 @@
 
 ## Quick Start
 
-###  On Target Compile Workflow (Jetson)
+###  Native Compilation (Jetson)
+
+#### 1. On Jetson: Download and run the build script
 ```bash
 wget https://github.com/lucianovk/jetson-gs_usb-kernel-builder/raw/main/jetson-gs_usb-kernel-builder.sh  
 chmod +x jetson-gs_usb-kernel-builder.sh  
 ./jetson-gs_usb-kernel-builder.sh
 ```   
 
-### 🔁 Cross-Compile Workflow (Jetson → Host → Jetson)
+### 🔁 Cross-Compilation Workflow (Jetson → Host → Jetson)
 
 #### 1. On Jetson: Export kernel config
 ```bash
