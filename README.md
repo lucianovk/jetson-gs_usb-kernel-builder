@@ -3,7 +3,7 @@
 **Automatically build and install the `gs_usb` CAN kernel module for NVIDIA Jetson devices** running **L4T R36.4.3** (Linux for Tegra). Supports both native (ARM64) and cross-compilation (x86_64) workflows.  
 
 ## ✅ Compatible With  
-- **Jetson AGX Orin/Xavier, TX2, Nano** (L4T R36.4.3 kernel **5.10.120-tegra**)  
+- **Jetson AGX Orin/Xavier, TX2, Nano** (L4T R36.4.3)  
 - Ubuntu 20.04 (Jammy) base  
 
 ## Features  
