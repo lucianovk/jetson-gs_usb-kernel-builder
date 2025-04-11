@@ -1,6 +1,6 @@
 #!/bin/bash
 # https://github.com/lucianovk/jetson-gs_usb-kernel-builder
-# Automatically build and install the gs_usb CAN kernel module for NVIDIA Jetson devices running L4T R36.4.3 (Linux for Tegra). Supports both native (ARM64) and cross-compilation (x86_64) workflows.
+# Easily build and install the gs_usb CAN kernel module for NVIDIA Jetson devices running L4T R36.4.3 (Linux for Tegra). Supports both native (ARM64) and cross-compilation (x86_64) workflows.
 
 # Colors for formatting
 RED='\033[0;31m'
