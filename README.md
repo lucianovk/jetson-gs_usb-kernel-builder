@@ -1,6 +1,6 @@
-# Jetson L4T gs_usb Kernel Module Builder 🔧  
+# Jetson L4T `gs_usb` Kernel Module Builder 🔧  
 
-**Easily build and install the** gs_usb **CAN kernel module for NVIDIA Jetson devices** running **L4T R36.4.3** (Linux for Tegra). Supports both native (ARM64) and cross-compilation (x86_64) workflows.
+**Easily build and install the** `gs_usb` **CAN kernel module for NVIDIA Jetson devices** running **L4T R36.4.3** (Linux for Tegra). Supports both native (ARM64) and cross-compilation (x86_64) workflows.
 
   
 
