@@ -19,9 +19,9 @@
 ## Quick Start  
 ```bash
 # Download and run (Jetson or cross-compile host)  
-wget https://github.com/lucianovk/jetson-l4t-kernel-module-builder/raw/main/build_gs_usb.sh  
-chmod +x build_gs_usb.sh  
-./build_gs_usb.sh
+wget https://github.com/lucianovk/jetson-l4t-kernel-module-builder/raw/main/jetson-gs_usb-kernel-builder.sh  
+chmod +x jetson-gs_usb-kernel-builder.sh  
+./jetson-gs_usb-kernel-builder.sh
 ```   
 
 ⚠️ **For Other Kernel Versions**  
