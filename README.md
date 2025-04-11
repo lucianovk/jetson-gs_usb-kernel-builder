@@ -16,15 +16,35 @@
 - CAN bus communication (robotics, automotive, ROS2)  
 - Custom kernel module development for Jetson  
 
-## Quick Start  
+## Quick Start
+
+###  On Target Compile Workflow (Jetson)
 ```bash
-# Download and run (Jetson or cross-compile host)  
 wget https://github.com/lucianovk/jetson-gs_usb-kernel-builder/raw/main/jetson-gs_usb-kernel-builder.sh  
 chmod +x jetson-gs_usb-kernel-builder.sh  
 ./jetson-gs_usb-kernel-builder.sh
 ```   
 
-⚠️ **For Other Kernel Versions**  
+### 🔁 Cross-Compile Workflow (Jetson → Host → Jetson)
+
+#### 1. On Jetson: Export kernel config
+```bash
+zcat /proc/config.gz > config
+```
+
+#### 2. Copy config file to your host machine
+```bash
+scp config user@host:/path/to/jetson-gs_usb-kernel-builder/
+```
+
+#### 3. On the host: Download and run the build script
+```bash
+cd /path/to/jetson-gs_usb-kernel-builder/
+wget https://github.com/lucianovk/jetson-gs_usb-kernel-builder/raw/main/jetson-gs_usb-kernel-builder.sh  
+chmod +x jetson-gs_usb-kernel-builder.sh  
+./jetson-gs_usb-kernel-builder.sh
+```
+## ⚠️ **For Other Kernel Versions**  
 This script is tailored for L4T R36.4.3. For newer kernels, modify:  
 - `KERNEL_VERSION` in the script  
 - Download matching sources from [NVIDIA L4T](https://developer.nvidia.com/embedded/linux-tegra)  
