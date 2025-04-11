@@ -21,4 +21,9 @@
 # Download and run (Jetson or cross-compile host)  
 wget https://github.com/lucianovk/jetson-l4t-kernel-module-builder/raw/main/build_gs_usb.sh  
 chmod +x build_gs_usb.sh  
-./build_gs_usb.sh  
+./build_gs_usb.sh
+
+⚠️ **For Other Kernel Versions**  
+This script is tailored for L4T R36.4.3. For newer kernels, modify:  
+- `KERNEL_VERSION` in the script  
+- Download matching sources from [NVIDIA L4T](https://developer.nvidia.com/embedded/linux-tegra)  
